@@ -1,0 +1,39 @@
+body{
+		background-image: url('backg.jpg');
+		font-family: 'Copperplate Gothic Light';
+}
+.ContainerInfo{
+  color: #f6f6f6;
+  height: 410px;
+	width: 1000px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translateX(-50%) translateY(-50%);
+	background-color: black;
+	padding: 20px;
+  border:1px solid #786a9e;
+	box-shadow: 0 0 8px 3px #fff;
+}
+.PlayBtn{
+  border-radius: 20px;
+  border: 0;
+  font-size: 28px;
+  width: 300px;
+  height: 50px;
+  background-color: #786a9e;
+  position: absolute;
+  top: 70%;
+  left:40%;
+}
+.PlayBtn:hover{
+  border-radius: 20px;
+  border: 0;
+  height: 60px;
+  font-size: 28px;
+  width: 300px;
+  background-color: #786a9e;
+  position: absolute;
+  top: 70%;
+  left:40%;
+}

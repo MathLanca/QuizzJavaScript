@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Matheus Lança">
+		<title>Perguntas Quizz</title>
+		<link href="quizz.css" rel="stylesheet">
+	</head>
+	<body>
+		<div id="quizContainer" class="container">
+			<div class="title">Testando seus conhecimentos sobre musica eletronica</div>
+			<div id="questao" class="questao"></div>
+			<div id="quest">
+				<label class="option"><input type="radio" name="option" value="1" id="alt" /> <span id="opt1"></span></label>
+				<label class="option"><input type="radio" name="option" value="2" id="alt" /> <span id="opt2"></span></label>
+				<label class="option"><input type="radio" name="option" value="3" id="alt" /> <span id="opt3"></span></label>
+				<label class="option"><input type="radio" name="option" value="4" id="alt" /> <span id="opt4"></span></label>
+				<label class="option"><input type="radio" name="option" value="5" id="alt" /> <span id="opt5"></span></label>
+			</div>
+			<label class="WriteQuest"><input type="text" name="ans" id="writeQuest" style="display:none;" class="writeQuest" ></label>
+			<button id="nextButton" class="next-btn" onclick="ProximaQuestao();">Proxima Questão</button>
+		</div>
+		<div id="result" class="container result" style="display:none;">
+		</div>
+		<script src="question.js"></script>
+		<script src="quizz.js"></script>
+	</body>
+</html>

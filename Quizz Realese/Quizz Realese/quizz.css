@@ -1,0 +1,87 @@
+body{
+  font-family: "Copperplate Gothic Light",serif;
+  background-image: url("backg.jpg");
+}
+
+.container{
+	height: 410px;
+	width: 1000px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translateX(-50%) translateY(-50%);
+	background-color: black;
+	padding: 20px;
+  border:1px solid #786a9e;
+	box-shadow: 0 0 8px 3px #fff;
+}
+
+.title{
+	padding-top: 20px;
+	text-align: center;
+	font-size: 36px;
+	text-transform: uppercase;
+	color: #f6f6f6;
+}
+.questao{
+	padding: 20px;
+	font-size: 22px;
+	background:#786a9e;
+	border-radius: 20px;
+	margin: 10px 0 10px 0;
+	color: #f6f6f6;
+}
+
+.option{
+	width: 470px;
+	display: inline-block;
+	padding: 10px 0 10px 15px;
+	vertical-align: middle;
+  	background: rgba(120, 136, 158, 0.5);
+	margin: 10px 0 10px 10px;
+	color: #f6f6f6;width: 300px;
+	border-radius: 20px;
+}
+.writeQuest{
+	font-size: 22px;
+	color: #f6f6f6;
+  	border:0;
+  	position: absolute;
+  	top:65%;
+  	left:35%;
+	width: 300px;
+  	height: 40px;
+	background: rgba(120, 136, 158, 0.5);
+}
+
+.option:hover{
+  background: #786a9e;
+}
+.next-btn{
+	border: none;
+	outline: none;
+  	background: #786a9e;
+	width: 100px;
+	height: 35px;
+	border-radius: 20px;
+	cursor: pointer;
+	float: right;
+	margin: 10px;
+}
+
+.next-btn:hover{
+  width: 150px;
+  transition-delay: 0.6;
+}
+
+.result{
+	height: 500px;
+	text-align: center;
+	font-size: 75px;
+	color: #f6f6f6;
+}
+
+.option input:checked .option{
+  background:  rgba(120, 136, 158, 0.5);
+  color: #000;
+}

@@ -1,0 +1,43 @@
+body{
+		background-image: url('backg.jpg');
+		font-family: 'Copperplate Gothic Light';
+}
+.geral{
+	color: #786A9E;
+	text-align: center;
+	background-color:black;
+	padding: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 0px;
+	margin-top: 50px;
+	height: 560px;
+	border-radius: 2.5em;
+}
+.apresentacao{
+	font-size: 20px;
+}
+.geral h1{
+	padding-bottom: 100px;
+}
+.gifs{
+	float: left;
+	width: 30%;
+	padding-left: 80px;
+}
+.geral input{
+	border-color:#786A9E;
+	border-radius: 3em;
+	background-color:#786A9E;
+	width: 300px;
+	height: 50px;
+	font-size: 20px;
+
+}
+.geral input:hover{
+	border-color:#786A9E;
+	border-radius: 3em;
+	background-color:#786A9E;
+	width: 440px;
+	height: 60px;
+}
